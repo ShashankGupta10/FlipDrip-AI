@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "sans-serif";
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  color: white;
+  font-size: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+  background-color: #287FF0;
+  box-shadow: 0 0 1px 0 black;
+  z-index: 100;
+}
+
+.chatbot-form{
+  margin: 55px 0 0 305px;
+}
+
+.response-wrapper{
+  display: flex;
+  flex-direction: column;
+  padding: 40px 80px 30px 80px;
+  width: 100%;
+  height: 80vh;
+  overflow-y: scroll;
+  gap: 15px;
+}
+
+.response-wrapper::-webkit-scrollbar{
+  width: 10px;
+}
+
+.response-wrapper::-webkit-scrollbar-track{
+  background-color: #ececec;
+  border-radius: 100px;
+}
+
+.response-wrapper::-webkit-scrollbar-thumb{
+  background-color: #C1C1C1;
+  border-radius: 100px;
+}
+
+.user-message{
+  display: inline-block;
+  box-shadow: 2px 0 9px -5px black;
+  padding: 10px 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  min-width: 400px;
+  max-width: 700px;
+  align-self: flex-end;
+  animation: messages 500ms ease-in-out;
+}
+
+.system-message{
+  display: inline-block;
+  align-self: flex-start;
+  box-shadow: -2px 0 9px -5px black;
+  padding: 10px 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  min-width: 400px;
+  max-width: 700px;
+  animation: messages 500ms ease-in-out;
+}
+
+@keyframes messages {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+.image-message{
+  width: 512px;
+  height: 512px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  box-shadow: 0 0 8px -5px black;
+}
+
+.prompt-input{
+  display: flex;
+  width: 100%;
+}
+
+.prompt-input > input[type='text']{
+  outline: none;
+  margin: 0 0 0 auto;
+  padding: 5px 15px;
+  font-size: 16px;
+  border: none;
+  height: 60px;
+  width: 800px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: #ebebeb;
+  transition: background-color 200ms;
+}
+
+.prompt-input > input[type='text']:focus{
+  background-color: #f0f0f0;
+  box-shadow: 0 0 5px -10px inset;
+}
+
+.prompt-input > button[type='submit']{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  background-color: #ebebeb;
+  border: none;
+  width: 40px;
+  height: 60px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+  margin: 0 auto 0 0;
+}
+
+.prompt-input > button[type='submit'] > img{
+  transition: scale 200ms;
+  pointer-events: none;
+}
+
+.prompt-input > button[type='submit'] > img:hover{
+  scale: 1.1;
+}
+
+.sidebar{
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+  border-top-right-radius: 10px;
+  padding: 10px 8px;
+  box-shadow: 0 0 8px -5px black;
+}
+
+.sidebar > .chat-topic{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 10px;
+  gap: 5px;
+  height: 50px;
+  transition: background-color 300ms;
+  cursor: pointer;
+}
+
+.sidebar > .chat-topic:hover{
+  background-color: #f0f0f0;
+}
+
+.chat-topic > p{
+  font-size: 17px;
+  width: 220px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
+
+.loader {
+  position: relative;
+  margin: 40px;
+}
+.loader__dot {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 4px;
+  border-radius: 5px;
+  background-color: #e1e3e7;
+  float: left;
+}
+.slide {
+  will-change: transform, opacity;
+  -webkit-animation: slide 400ms infinite linear;
+          animation: slide 400ms infinite linear;
+}
+.slide__one {
+  -webkit-animation: fadeIn 400ms infinite ease-out;
+          animation: fadeIn 400ms infinite ease-out;
+}
+.slide__two {
+  -webkit-animation: fadeOut 400ms infinite ease-in;
+          animation: fadeOut 400ms infinite ease-in;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(-18px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
