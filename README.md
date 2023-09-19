@@ -65,7 +65,6 @@ FlipDrip AI is a cutting-edge e-commerce platform with a unique twist – our AI
     ```bash
     npm start
 
-
  4. **Access the App**:
 
     Open your web browser and go to http://localhost:5173 to start shopping!
@@ -79,7 +78,7 @@ FlipDrip AI is a cutting-edge e-commerce platform with a unique twist – our AI
 ## Technology Stack
 - Frontend: React.js, Redux
 - Backend: Node.js, Express.js
-- AI: Generative Models
+- AI: ChatGPt-3.5-turbo, Stable Diffusion, Photoreal, HuggingFace
 - Database: Zilliz Vector DB
 - Authentication: JWT
 - Payment: Razorpay
