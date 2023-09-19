@@ -57,37 +57,35 @@ FlipDrip AI is a cutting-edge e-commerce platform with a unique twist – our AI
    ```bash
    git clone https://github.com/your-username/fashiongen.git
    cd fashiongen
-Install Dependencies:
+2. **Install Dependencies**:
 
-bash
-Copy code
-npm install
-Run the Application:
+    ```bash
+    npm install
+    Run the Application:
 
-bash
-Copy code
-npm start
-Access the App:
+    ```bash
+    npm start
+    Access the App:
 
 Open your web browser and go to http://localhost:5173 to start shopping!
 
-Usage
-Signup/Login: Create an account or log in to access your personalized fashion recommendations.
+## Usage
+- Signup/Login: Create an account or log in to access your personalized fashion recommendations.
 
-AI Outfit Generator: Explore outfits generated just for you based on your preferences.
+- AI Outfit Generator: Explore outfits generated just for you based on your preferences.
 
-Shopping: Browse and purchase the latest fashion items effortlessly.
+- Shopping: Browse and purchase the latest fashion items effortlessly.
 
-Zilliz Vector DB: Dive into a world of fashion trends enriched with context-rich images.
+- Zilliz Vector DB: Dive into a world of fashion trends enriched with context-rich images.
 
-Technology Stack
-Frontend: React.js, Redux
-Backend: Node.js, Express.js
-AI: Generative Models
-Database: Zilliz Vector DB
-Authentication: JWT
-Payment: Razorpay
-Team Members
-Shashank Gupta (Team Lead)
-Pranav Patil
-Shaunak Rananaware
+## Technology Stack
+- Frontend: React.js, Redux
+- Backend: Node.js, Express.js
+- AI: Generative Models
+- Database: Zilliz Vector DB
+- Authentication: JWT
+- Payment: Razorpay
+## Team Members
+- Shashank Gupta (Team Lead)
+- Pranav Patil
+- Shaunak Rananaware
