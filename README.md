@@ -67,7 +67,7 @@ FlipDrip AI is a cutting-edge e-commerce platform with a unique twist – our AI
 
  4. **Access the App**:
 
-    Open your web browser and go to http://localhost:5173 to start shopping!
+    Open your web browser and go to http://localhost:3000 to start shopping!
 
 ## Usage
 - Signup/Login: Create an account or log in to access your personalized fashion recommendations.
