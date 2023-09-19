@@ -11,8 +11,6 @@ Welcome to FlipDrip AI, your personalized fashion destination! Discover the late
 - [Usage](#usage)
 - [Technology Stack](#technology-stack)
 - [Team Members](#team-members)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Problem Statement
 
@@ -61,21 +59,21 @@ FlipDrip AI is a cutting-edge e-commerce platform with a unique twist – our AI
 
     ```bash
     npm install
-    Run the Application:
+
+3. **Run the Application**:
 
     ```bash
     npm start
-    Access the App:
 
-Open your web browser and go to http://localhost:5173 to start shopping!
+
+ 4. **Access the App**:
+
+    Open your web browser and go to http://localhost:5173 to start shopping!
 
 ## Usage
 - Signup/Login: Create an account or log in to access your personalized fashion recommendations.
-
 - AI Outfit Generator: Explore outfits generated just for you based on your preferences.
-
 - Shopping: Browse and purchase the latest fashion items effortlessly.
-
 - Zilliz Vector DB: Dive into a world of fashion trends enriched with context-rich images.
 
 ## Technology Stack
