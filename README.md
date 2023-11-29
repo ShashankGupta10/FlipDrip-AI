@@ -9,6 +9,7 @@ Welcome to FlipDrip AI, your personalized fashion destination! Discover the late
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
+- [Demo](#demo)
 - [Technology Stack](#technology-stack)
 - [Team Members](#team-members)
 
@@ -74,6 +75,11 @@ FlipDrip AI is a cutting-edge e-commerce platform with a unique twist – our AI
 - AI Outfit Generator: Explore outfits generated just for you based on your preferences.
 - Shopping: Browse and purchase the latest fashion items effortlessly.
 - Zilliz Vector DB: Dive into a world of fashion trends enriched with context-rich images.
+
+## Demo
+
+https://github.com/ShashankGupta10/FlipDrip-AI/assets/117008526/dc407383-cc6e-4600-90dd-22d213215ba0
+
 
 ## Technology Stack
 - Frontend: React.js, Redux
